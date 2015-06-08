@@ -6,6 +6,7 @@ section > div	{ padding: 20px; }
 header, nav, section, footer { background: #eee; text-align: center; }
 nav span	{ margin: 0 10px 0 0; }
 footer span	{ margin: 0 10px 0 0; }
+#ErrorMsgs	{ color: #f61; font-size: smaler; }
 #tabla_creditos { margin: 10px auto; }
 #tabla_creditos img { width: 65px; height: 61px; }
 #search_form	{ text-align: left; margin-top: 30px; }

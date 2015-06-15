@@ -45,7 +45,7 @@ app.use(function(req, res, next) {
 // Comprueba el tiempo transcurrido desde la última actividad, y si es mayor a 2 minutos, desconecta la sesión
 app.use(function(req, res, next) {
   if (req.session.user) {  // Sólo hago la comprobación si el usuario está logueado
-    tiempoAnterior = req.session.ultimaActividad || Date.now();
+    var tiempoAnterior = req.session.ultimaActividad || Date.now();
     // Comprueba el tiempo transcurrido
     if ((Date.now() - tiempoAnterior) > 120*1000) {
       delete req.session.ultimaActividad;

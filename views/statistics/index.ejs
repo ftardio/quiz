@@ -1,0 +1,23 @@
+<h3>Estadísticas</h3>
+<table id="tabla_estadisticas">
+  <tr>
+    <td>Total de preguntas en la BD: </td>
+    <td class="right"><%= stats.totalPreguntas %></td>
+  </tr>
+  <tr>
+    <td>Total de comentarios (publicados) en la BD: </td>
+    <td class="right"><%= stats.totalComentarios %></td>
+  </tr>
+  <tr>
+    <td>Media de comentarios por pregunta: </td>
+    <td class="right"><%= stats.mediaComentarios.toFixed(2) %></td>
+  </tr>
+  <tr>
+    <td>Total de preguntas con comentarios (publicados): </td>
+    <td class="right"><%= stats.preguntasConCom %></td>
+  </tr>
+  <tr>
+    <td>Total de preguntas sin comentarios (publicados): </td>
+    <td class="right"><%= stats.preguntasSinCom %></td>
+  </tr>
+</table>

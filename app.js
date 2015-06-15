@@ -25,7 +25,7 @@ app.use(partials());
 //app.use(favicon(__dirname + '/public/favicon.ico'));
 app.use(logger('dev'));
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({extended: true}));
 app.use(cookieParser('Quiz 2015'));
 app.use(session({resave: true, saveUninitialized: true}));
 app.use(methodOverride('_method'));

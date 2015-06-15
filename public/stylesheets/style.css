@@ -1,8 +1,8 @@
-* 		{ margin: 0; padding: 0; }
+* 		{ margin: 0; padding: 3px; }
 body 		{ font: 16px Georgia, serif; }
 #page-wrap 	{ margin: 2% auto; color: white; }
 #page-wrap>.main{ border: 1px solid #999; padding: 1% margin-bottom: 1px; color:black; }
-section > div	{ padding: 20px; }
+section > div	{ padding: 5px; }
 header, nav, section, footer { background: #eee; text-align: center; }
 nav span	{ margin: 0 10px 0 0; }
 footer span	{ margin: 0 10px 0 0; }
@@ -12,5 +12,6 @@ footer span	{ margin: 0 10px 0 0; }
 #tabla_estadisticas{ text-align: left; }
 #tabla_estadisticas td{ padding: 3px; }
 #tabla_estadisticas td.right { text-align: right; }
-#search_form	{ text-align: left; margin-top: 30px; }
+#search_form	{ text-align: left; }
 .right		{ float: right; }
+.left		{ float: left; }
